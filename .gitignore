@@ -1,0 +1,55 @@
+# ============================================================
+#  .gitignore — Portfolio Project
+# ============================================================
+
+# ----- OS & System Files ------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ----- Editor & IDE -----------------------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+
+# ----- Node / npm / pnpm ------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ----- Build / Dist outputs ---------------------------------
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+
+# ----- Environment & Secrets --------------------------------
+.env
+.env.local
+.env.*.local
+
+# ----- Logs -------------------------------------------------
+logs/
+*.log
+
+# ----- Misc -------------------------------------------------
+*.bak
+*.tmp
+*.zip
+*.tar.gz
